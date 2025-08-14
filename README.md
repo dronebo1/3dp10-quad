@@ -17,6 +17,9 @@ First, I tried increasing the D term in order to increasing the damping, but inc
 
 Later, I tried a new approach of reseting the D term back to 1, and increasing the PI "tracking" term to 1.3, while leaving the gyro master filter at 1.3, but in hindsight, this was a mistake, as the low refresh rate of the PWM led to the drone unable to lose altitude, forcing me to disarm and leading to a crash.
 
+<img width="235" height="313" alt="{D32E0741-0DC7-4201-AB15-D046725B6A45}" src="https://github.com/user-attachments/assets/f55a1d1c-a8cb-4a96-a3a7-f90c2a6ab833" />
+
+
 I am now working on reprinting the frame in order to continue testing, as well as adding an O4 PRO mount in the canopy for some nice first person 4K footage. Once I finish reprinting and reassembling, I will try the settings:
 
 Gyro master filter: 1.3
